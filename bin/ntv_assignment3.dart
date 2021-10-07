@@ -7,7 +7,7 @@ void main() {
     print(number);
     sum = sum + number;
     /* if want to print sum after each number so let the print (sum) hér:
-     print('Sum of first ten numbers is: $sum');.
+     print('Sum after each number is: $sum');.
      */
   }
   print('Sum of first ten numbers is: $sum');
