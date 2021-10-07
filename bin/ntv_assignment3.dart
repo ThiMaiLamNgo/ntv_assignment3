@@ -1,5 +1,14 @@
 import 'dart:io';
 import 'dart:math';
+void main() {
+  print('Enter a number: ');
+  int number = int.parse(stdin.readLineSync());
+  for (int i = 1; i <= 10; i++) {
+    print('$number * $i = ${number * i}');
+  }
+}
+
+/*
 // Assignment 3_ 1:
 void main() {
   int sum = 0;
@@ -25,3 +34,5 @@ void main() {
 10
 Sum of first ten numbers is: 55
 */
+
+ */
