@@ -1,6 +1,28 @@
 import 'dart:io';
 import 'dart:math';
+// ASSIGNMENT 3_4:
+void main() {
+  print('Please enter a number: ');
+  int number = int.parse(stdin.readLineSync());
+  int counterDigits = 0;
 
+  while(number != 0){
+    int digit = number % 10;
+    number ~/= 10; //if use number/10, it returns decimal values.
+    counterDigits ++;
+  }
+  print('Number of digits is: $counterDigits');
+}
+/* If I want to sum the digits of the number:
+int sum_digits = 0;
+int digit = number % 10;
+sum_digits += digit;
+print('$sum_digits');
+ */
+
+
+
+/*
 // ASSIGNMENT 3_3:
 void main() {
   print('Enter five numbers, please!');
@@ -15,6 +37,8 @@ void main() {
   print('Sum of the numbers is: $sum');
   print('Average of the numbers is: ${sum / counter}');
 }
+ */
+
 
 /* ASSIGNMENT 3-2:
 void main() {
