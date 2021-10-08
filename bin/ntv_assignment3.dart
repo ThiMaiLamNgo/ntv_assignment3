@@ -7,7 +7,6 @@ void main() {
   int counterDigits = 0;
 
   while(number != 0){
-    int digit = number % 10;
     number ~/= 10; //if use number/10, it returns decimal values.
     counterDigits ++;
   }
